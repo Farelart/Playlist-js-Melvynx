@@ -58,4 +58,4 @@ user.name = "Jean";
 console.log(user);
 
 
-// primitive variables are assigned values while arrays and objects are assigned addresses(they are reference type)
+// primitive variables are assigned values while arrays and objects are assigned addresses(they are reference types)
