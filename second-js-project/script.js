@@ -48,7 +48,7 @@ const maxNum = (arr) => {
 console.log(`The maximum number for this array ${numArray} is ${maxNum(numArray)}`);
 
 const multiplyByTwo = (arr) => {
-    const duplicatedArr = [...numArray];
+    const duplicatedArr = [...arr];
     for(let i = 0; i < duplicatedArr.length; i++) {
         duplicatedArr[i] *= 2;
     }
