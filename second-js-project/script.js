@@ -58,5 +58,17 @@ console.log(`The doubled array of ${numArray} is ${multiplyByTwo(numArray)}`);
 
 // declarative programming
 
+// map
 const multiplicateByTwo = numArray.map((n) => n * 2);
 console.log(numArray, multiplicateByTwo);
+
+// reduce
+const maxNumber2 = numArray.reduce((acc, curr) => {
+    return curr > acc ? curr: acc;
+}, -Infinity);
+console.log(maxNumber2);
+
+// filter
+
+const positiveNumbers = numArray.filter((number) => number > 0);
+console.log(positiveNumbers);
