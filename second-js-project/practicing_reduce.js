@@ -1,4 +1,4 @@
-// The practice links https://coursework.vschool.io/array-reduce-exercises/
+// The practice link https://coursework.vschool.io/array-reduce-exercises/
 
 
 // 1) Turn an array of numbers into a total of all the numbers
